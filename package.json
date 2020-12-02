@@ -1,0 +1,23 @@
+{
+  "name": "cloudfactory-demo",
+  "version": "1.0.0",
+  "description": "Activity:\r Create a demo repository in GitHub\r Create a Pull request within the repository\r Open account in cypress.io\r Integrate cypress.io with the demo repository\r When you push a commit in the pull request it auto triggers to execute test in cypress and publishes the test result back to the pull request",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cy" : "cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/enizium/CloudFactory-Demo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/enizium/CloudFactory-Demo/issues"
+  },
+  "homepage": "https://github.com/enizium/CloudFactory-Demo#readme",
+  "devDependencies": {
+    "cypress": "^6.0.1"
+  }
+}
